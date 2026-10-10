@@ -606,3 +606,14 @@ em.up{color:var(--v-pos)} em.down{color:var(--v-neg)}
 .sa-actions button[disabled]{opacity:.35;cursor:not-allowed}
 .sup-st{margin:10px 0;padding:9px 11px;border-radius:9px;font-size:13px}.sup-st.on{background:rgba(52,199,120,.12);color:#9ff0c3;border:1px solid rgba(52,199,120,.35)}.sup-st.off{background:#0b1117;border:1px solid var(--line);color:#b9c5cf}
 .sup-log{margin-top:12px;display:grid;gap:4px}.sup-log>div{display:flex;justify-content:space-between;font-size:12px;background:#0b1117;border:1px solid var(--line);border-radius:7px;padding:5px 9px}.sup-log em{font-style:normal;color:var(--muted)}
+/* Invitación por club */
+.inv-modal{width:min(980px,96vw)}
+.inv-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 16px}
+.inv-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;align-items:start}
+.inv-body canvas{width:100%;height:auto;border-radius:12px;border:1px solid var(--line);display:block}
+.inv-side{min-width:0}.inv-side label{margin-top:0}
+.inv-side textarea{min-height:300px;font-size:13px;line-height:1.5}
+.inv-actions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 8px}
+.inv-wa{text-decoration:none;display:inline-flex;align-items:center}
+.inv-banner{margin-top:14px;padding:11px 13px;border:1px solid #1f4c6e;background:#0d2f49;border-radius:10px;font-size:13px;line-height:1.45;color:#cfe8fa;text-align:left}
+@media(max-width:760px){.inv-body{grid-template-columns:1fr}}
